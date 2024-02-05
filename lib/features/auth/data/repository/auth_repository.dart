@@ -155,7 +155,6 @@ class AuthRepository {
       final result = await _remoteDatasource.createDateTime(addDateModel);
       return Right(result);
     } catch (e) {
-      print(e);
       return Left(e.toString());
     }
   }

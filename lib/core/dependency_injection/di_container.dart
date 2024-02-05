@@ -14,7 +14,7 @@ class DIContainer {
 
   Account get _account => Account(_client);
   Databases get _databases => Databases(_client);
-  Storage get _storage => Storage(_client);
+  // Storage get _storage => Storage(_client);
 
   FlutterSecureStorage get _secureStorage => const FlutterSecureStorage();
 

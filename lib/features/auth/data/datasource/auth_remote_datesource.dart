@@ -145,9 +145,7 @@ class AuthRemoteDatasource {
             Query.equal('docName', addDateModel.docName),
           ]);
 
-      print(result.total);
       if (result.total == 0) {
-        print('${result.total} dreeer');
         final docs = await _databases.createDocument(
           databaseId: Config.dbID,
           collectionId: Config.schedulesId,
