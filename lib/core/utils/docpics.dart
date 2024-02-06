@@ -1,9 +1,9 @@
 class DoctorPics {
   static final arrayPics = [
-    'images/doctor.png',
-    'images/doctor1.png',
-    'images/desidedo.png',
-    'images/doctorm2.png',
-    'images/doctorm3.png',
+    'assets/images/doctor.png',
+    'assets/images/doctor1.png',
+    'assets/images/doctorm2.png',
+    'assets/images/doctorm3.png',
+    'assets/images/desidedo.png',
   ];
 }

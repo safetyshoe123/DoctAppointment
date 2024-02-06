@@ -45,7 +45,7 @@ class _LoginPageState extends State<LoginPage> {
       width: screenSize.width,
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('images/green_bg.png'),
+          image: AssetImage('assets/images/green_bg.png'),
           fit: BoxFit.cover,
         ),
       ),
@@ -88,7 +88,7 @@ class _LoginPageState extends State<LoginPage> {
                         width: 400,
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('images/doc.png'),
+                            image: AssetImage('assets/images/doc.png'),
                           ),
                         ),
                       ),

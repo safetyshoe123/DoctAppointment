@@ -49,7 +49,7 @@ class _DocTypeState extends State<DocType> {
           width: screenSize.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/green_bg.png'),
+              image: AssetImage('assets/images/green_bg.png'),
               fit: BoxFit.cover,
             ),
           ),
@@ -70,10 +70,10 @@ class _DocTypeState extends State<DocType> {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: _doctype == 'Cardiology'
-                              ? const AssetImage('images/cardio.png')
+                              ? const AssetImage('assets/images/cardio.png')
                               : _doctype == 'Dentistry'
-                                  ? const AssetImage('images/dentist3.png')
-                                  : const AssetImage('images/oculist.png'),
+                                  ? const AssetImage('assets/images/dentist3.png')
+                                  : const AssetImage('assets/images/oculist.png'),
                           fit: BoxFit.cover,
                         ),
                       ),

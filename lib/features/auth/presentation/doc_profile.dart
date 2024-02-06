@@ -59,7 +59,7 @@ class _DocProfileState extends State<DocProfile> {
           width: screenSize.width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/green_bg.png'),
+              image: AssetImage('assets/images/green_bg.png'),
               fit: BoxFit.cover,
             ),
           ),

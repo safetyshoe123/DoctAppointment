@@ -52,7 +52,7 @@ class _RegisterPageState extends State<RegisterPage> {
       width: screenSize.width,
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('images/green_bg.png'), fit: BoxFit.cover, ),
+            image: AssetImage('assets/images/green_bg.png'), fit: BoxFit.cover, ),
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
@@ -92,7 +92,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         width: 400,
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                              image: AssetImage('images/reg_bg.png'),
+                              image: AssetImage('assets/images/reg_bg.png'),
                               alignment: Alignment.bottomCenter),
                         ),
                       ),

@@ -59,6 +59,19 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/
+    - assets/images/dentist3.png
+    - assets/images/cardio.png
+    - assets/images/oculist.png
+    - assets/images/doctor1.png
+    - assets/images/desidedo.png
+    - assets/images/doctor.png
+    - assets/images/doctorm2.png
+    - assets/images/doctorm3.png
+    - assets/images/green_bg.png
+    - assets/images/reg_bg.png
+    - assets/images/doc.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
