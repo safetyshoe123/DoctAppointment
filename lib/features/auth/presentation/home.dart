@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 12),
                     child: SearchBar(
-                      padding: const MaterialStatePropertyAll<EdgeInsets>(
+                      padding: const WidgetStatePropertyAll<EdgeInsets>(
                         EdgeInsets.symmetric(horizontal: 16.0),
                       ),
                       leading: const Icon(Icons.search),
